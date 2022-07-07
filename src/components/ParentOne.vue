@@ -3,7 +3,6 @@
         <h3>Parent 1</h3>
         <button type="button" @click="$emit('openPopup', {value: 1, text: 'Data parent 1 popup 1'})" class="button">Popup 1</button>
         <button type="button" @click="$emit('openPopup', {value: 2, text: 'Data parent 1 popup 2'})" class="button">Popup 2</button>
-        <button type="button" @click="$emit('openPopup', {value: 3, text: 'Data parent 1 popup 3'})" class="button">Popup 3</button>
     </div>
 </template>
 <script>
