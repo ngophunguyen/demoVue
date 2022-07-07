@@ -4,6 +4,7 @@
         <div class="popup">
             <div id="popup1" class="box-popup">
                 <h3>Popup 1</h3>
+                <p>{{ msg }}</p>
             </div>
         </div>
     </transition>
